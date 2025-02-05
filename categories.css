@@ -1,0 +1,171 @@
+.image-37-icon {
+    position: absolute;
+    top: 295px;
+    /* left: 552px; */
+    left: 452px;
+    border-radius: 20px;
+    width: 260px;
+    height: 471.3px;
+    object-fit: cover;
+}
+.image-36-icon {
+    position: absolute;
+    top: 350px;
+    /* left: 366px; */
+    left: 266px;
+    border-radius: 20px;
+    width: 220px;
+    height: 470.6px;
+    object-fit: cover;
+}
+.image-35-icon {
+    position: absolute;
+    top: 536px;
+    /* left: 201px; */
+    left: 101px;
+    border-radius: 20px;
+    width: 208.5px;
+    height: 315px;
+    object-fit: cover;
+}
+.image-39-icon {
+    position: absolute;
+    top: 310px;
+    /* left: 170px; */
+    left: 70px;
+    border-radius: 20px;
+    width: 250px;
+    height: 166.7px;
+    object-fit: cover;
+}
+.image-40-icon {
+    position: absolute;
+    top: 0px;
+    /* left: 185px; */
+    left: 85px;
+    border-radius: 20px;
+    width: 240px;
+    height: 300px;
+    object-fit: cover;
+}
+.image-38-icon {
+    position: absolute;
+    top: 120px;
+    /* left: 403px; */
+    left: 303px;
+    border-radius: 20px;
+    width: 233px;
+    height: 216px;
+    object-fit: cover;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: calc(0px - 100px);
+    border-radius: 100px;
+    background-color: #4d4abe;
+    width: 220px;
+    height: 60px;
+}
+.accessories {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 61px - 100px);
+}
+.rectangle-parent {
+    position: absolute;
+    top: 821px;
+    left: 10px;
+    width: 220px;
+    height: 60px;
+}
+.jewelry {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 39px - 100px);
+}
+.rectangle-group {
+    position: absolute;
+    top: 127px;
+    left: 0px;
+    width: 220px;
+    height: 60px;
+}
+.rectangle-container {
+    position: absolute;
+    top: 90px;
+    /* left: 702px; */
+    left: 502px;
+    width: 220px;
+    height: 60px;
+}
+.group-div {
+    position: absolute;
+    top: 514px;
+    /* left: 782px; */
+    left: 682px;
+    width: 220px;
+    height: 60px;
+}
+.sports {
+    position: absolute;
+    top: calc(50% + 400.5px);
+    left: calc(50% - 48px - 100px);
+    color: #0b1215;
+}
+.pets-products {
+    position: absolute;
+    top: calc(50% + 356.5px);
+    left: calc(50% + 213px - 100px);
+    color: #0b1215;
+}
+.foot-wear {
+    position: absolute;
+    top: calc(50% + 255.5px);
+    left: calc(50% - 431px - 100px);
+    color: #0b1215;
+}
+.kitchen-items {
+    position: absolute;
+    top: calc(50% - 134.5px);
+    left: calc(50% - 501px - 100px);
+    color: #0b1215;
+}
+.bathroom-products {
+    position: absolute;
+    top: calc(50% - 224.5px);
+    left: calc(50% + 286px - 100px);
+    color: #0b1215;
+}
+.health-beauty {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: calc(50% - 80px - 100px);
+}
+.rectangle-parent1 {
+    position: absolute;
+    top: 447px;
+    left: 10px;
+    width: 220px;
+    height: 60px;
+}
+.image-37-parent {
+    position: absolute;
+    top: 51px;
+    /* left: 255px; */
+    left: 155px;
+    width: 1002px;
+    height: 881px;
+}
+.cat-div {
+    width: 100%;
+    position: relative;
+    background-color: #fff1e3;
+    height: 982px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Inter;
+}
+
