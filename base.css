@@ -1,10 +1,19 @@
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Bold';
     src: url('assets/fonts/Gilroy-Bold.ttf') format('embedded-opentype'),
         url('assets/fonts/Gilroy-Bold.ttf') format('woff2'),
         url('assets/fonts/Gilroy-Bold.ttf') format('woff'),
         url('assets/fonts/Gilroy-Bold.ttf') format('truetype'),
         url('assets/fonts/Gilroy-Bold.ttf') format('svg');
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url('assets/fonts/Gilroy-SemiBold.ttf') format('embedded-opentype'),
+        url('assets/fonts/Gilroy-SemiBold.ttf') format('woff2'),
+        url('assets/fonts/Gilroy-SemiBold.ttf') format('woff'),
+        url('assets/fonts/Gilroy-SemiBold.ttf') format('truetype'),
+        url('assets/fonts/Gilroy-SemiBold.ttf') format('svg');
 }
 
 @font-face {
@@ -57,8 +66,8 @@ section {
 
 .body-text-content p,
 footer p {
-    font-family: 'Gilroy';
-    font-size: 15px;
+    font-family: 'Gilroy-Semibold';
+    font-size: 16px;
     color: #fff;
     text-align: left;
 }
@@ -80,7 +89,7 @@ footer p {
 }
 
 .section-heading p {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Bold';
     font-size: 16px;
     color: #F0B373;
 }

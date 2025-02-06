@@ -3,9 +3,17 @@
     max-width: 60%;
 }
 
+.vendors {
+    flex-direction: row-reverse;
+}
+
 
 @media (max-width: 768px) {
     #wings {
         left: 0;
+    }
+
+    .vendors {
+        flex-direction: column;
     }
 }
