@@ -127,6 +127,10 @@ footer p {
         font-size: 36px;
     }
 
+    .section-heading {
+        gap: 0.5rem;
+    }
+
     .body {
         padding: 2rem;
         flex-direction: column;
