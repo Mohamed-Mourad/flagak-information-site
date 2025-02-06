@@ -103,6 +103,10 @@ footer p {
         padding: 1rem;
     }
 
+    .section-title {
+        font-size: 36px;
+    }
+
     .body {
         padding: 2rem;
         flex-direction: column;
