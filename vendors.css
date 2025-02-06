@@ -1,0 +1,11 @@
+#wings {
+    position: absolute;
+    max-width: 60%;
+}
+
+
+@media (max-width: 768px) {
+    #wings {
+        left: 0;
+    }
+}

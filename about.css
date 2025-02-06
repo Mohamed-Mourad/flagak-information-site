@@ -1,0 +1,11 @@
+#pyramids {
+    position: absolute;
+    max-width: 80%;
+}
+
+
+@media (max-width: 768px) {
+    #pyramids {
+        right: 0;
+    }
+}

@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('assets/fonts/Gilroy-Bold.ttf') format('embedded-opentype'),
+        url('assets/fonts/Gilroy-Bold.ttf') format('woff2'),
+        url('assets/fonts/Gilroy-Bold.ttf') format('woff'),
+        url('assets/fonts/Gilroy-Bold.ttf') format('truetype'),
+        url('assets/fonts/Gilroy-Bold.ttf') format('svg');
+}
+
+@font-face {
+    font-family: 'Chronicle';
+    src: url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('embedded-opentype'),
+        url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('woff2'),
+        url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('woff'),
+        url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('truetype'),
+        url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('svg');
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    background-color: #4D4ABF;
+    background: linear-gradient(315deg, #957887 0%, #4D4ABF 15%, #4D4ABF 70%, #15243D 100%);
+    text-align: center;
+    overflow-x: hidden;
+    max-width: 1440px;
+}
+
+section {
+    padding: 2rem;
+    z-index: 1;
+}
+
+.body {
+    padding: 6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body .mockup {
+    max-height: 460px;
+    z-index: 2;
+}
+
+.body-text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-text-content p,
+footer p {
+    font-family: 'Gilroy';
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+}
+
+.absolute-img {
+    position: absolute;
+    z-index: -1;
+}
+
+.section-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section-heading img {
+    height: 1px;
+}
+
+.section-heading p {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    color: #F0B373;
+}
+
+.section-title {
+    font-family: 'Chronicle';
+    font-size: 64px;
+    color: #fff;
+    text-align: left;
+    margin: 0;
+}
+
+.slogan {
+    max-width: 40vw;
+}
+
+
+@media (max-width: 768px) {
+    section {
+        padding: 1rem;
+    }
+
+    .body {
+        padding: 2rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .slogan {
+        max-width: 75%;
+    }
+}

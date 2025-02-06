@@ -1,0 +1,76 @@
+#pharoah {
+    position: absolute;
+    width: 33vw;
+    left: 2rem;
+    top: 2rem;
+}
+
+#landing-mockup {
+    position: absolute;
+    width: 40vw;
+    right: 5rem;
+}
+
+.landing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.downloaders {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #F0B373;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    align-items: center;
+    margin-top: 2rem;
+    z-index: 2;
+}
+
+.downloaders-p {
+    display: flex;
+    gap: 0.25rem;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    align-items: center;
+    margin: 0;
+}
+
+.downloaders-p span img {
+    height: 18px;
+}
+
+.downloaders-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.store {
+    width: 90px;
+}
+
+.landing .slogan {
+    margin-top: 2rem;
+}
+
+
+
+@media (max-width: 768px) {
+    #pharoah {
+        width: 66vw;
+        left: 2rem;
+        top: 2rem;
+    }
+
+    #landing-mockup {
+        position: relative;
+        width: 100%;
+        max-width: 90%;
+        right: 0;
+    }
+}

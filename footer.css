@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.socials a img {
+    filter: invert(1) brightness(1000%);
+}
+
+.socials a img {
+    height: 24px;
+}
