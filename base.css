@@ -17,6 +17,15 @@
 }
 
 @font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('assets/fonts/Gilroy-Medium.ttf') format('embedded-opentype'),
+        url('assets/fonts/Gilroy-Medium.ttf') format('woff2'),
+        url('assets/fonts/Gilroy-Medium.ttf') format('woff'),
+        url('assets/fonts/Gilroy-Medium.ttf') format('truetype'),
+        url('assets/fonts/Gilroy-Medium.ttf') format('svg');
+}
+
+@font-face {
     font-family: 'Chronicle';
     src: url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('embedded-opentype'),
         url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('woff2'),
@@ -66,7 +75,7 @@ section {
 
 .body-text-content p,
 footer p {
-    font-family: 'Gilroy-Semibold';
+    font-family: 'Gilroy-Medium';
     font-size: 16px;
     color: #fff;
     text-align: left;
