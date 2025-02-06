@@ -1,6 +1,6 @@
 #wings {
     position: absolute;
-    max-width: 60%;
+    max-width: 40%;
 }
 
 .vendors {
@@ -11,6 +11,7 @@
 @media (max-width: 768px) {
     #wings {
         left: 0;
+        max-width: 60%;
     }
 
     .vendors {
