@@ -27,3 +27,15 @@ footer p {
     margin: 0;
     text-align: center;
 }
+
+.footer-p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    footer p {
+        font-size: 12px;
+    }
+}
