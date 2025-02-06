@@ -43,7 +43,7 @@ body {
     margin: 0;
     padding: 0.5rem 1rem;
     background-color: #4D4ABF;
-    background: linear-gradient(315deg, #957887 0%, #4D4ABF 15%, #4D4ABF 70%, #15243D 100%);
+    background: linear-gradient(315deg, #957887 0%, #4D4ABF 20%, #4D4ABF 65%, #15243D 100%);
     text-align: center;
     overflow-x: hidden;
     max-width: 1440px;
@@ -71,6 +71,7 @@ section {
 .body-text-content {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
 
 .body-text-content p,
@@ -79,6 +80,7 @@ footer p {
     font-size: 16px;
     color: #fff;
     text-align: left;
+    margin: 0;
 }
 
 .absolute-img {
