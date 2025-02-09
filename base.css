@@ -140,4 +140,8 @@ footer p {
     .slogan {
         max-width: 75%;
     }
+
+    h1 br {
+        display: none;
+    }
 }
