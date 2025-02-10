@@ -53,7 +53,7 @@ body {
     padding: 0.5rem 1rem;
     background-color: #4D4ABF;
     /* background: linear-gradient(315deg, #957887 0%, #4D4ABF 35%, #4D4ABF 65%, #15243D 100%); */
-    background: linear-gradient(315deg, #957887 0%, #4D4ABF 50%, #15243D 100%);
+    background: linear-gradient(315deg, #ad92a0 0%, #6a66dc 50%, #3b3891 100%);
     text-align: center;
     overflow-x: hidden;
     max-width: 1440px;
