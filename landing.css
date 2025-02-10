@@ -25,6 +25,7 @@
     border-radius: 12px;
     padding: 0.5rem 1rem;
     width: fit-content;
+    max-width: 30vw;
     align-items: center;
     margin-top: 2rem;
     z-index: 2;
@@ -47,11 +48,20 @@
 .downloaders-links {
     display: flex;
     flex-direction: row;
+    width: 100%;
     gap: 1rem;
+    justify-content: center;
 }
 
-.store {
-    width: 90px;
+.downloaders-links a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.downloaders-links a img {
+    width: 100%;
+    height: auto;
 }
 
 .landing .slogan {
@@ -72,5 +82,9 @@
         width: 100%;
         max-width: 90%;
         right: 0;
+    }
+
+    .downloaders {
+        max-width: 70vw;
     }
 }
