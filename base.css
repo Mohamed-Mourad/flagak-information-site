@@ -43,7 +43,7 @@ body {
     margin: 0;
     padding: 0.5rem 1rem;
     background-color: #4D4ABF;
-    background: linear-gradient(315deg, #957887 0%, #4D4ABF 20%, #4D4ABF 65%, #15243D 100%);
+    background: linear-gradient(315deg, #957887 0%, #4D4ABF 32%, #4D4ABF 64%, #15243D 100%);
     text-align: center;
     overflow-x: hidden;
     max-width: 1440px;
