@@ -34,6 +34,15 @@
         url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('svg');
 }
 
+@font-face {
+    font-family: 'Aref-Ruqaa';
+    src: url('assets/fonts/ArefRuqaa-Regular.ttf') format('embedded-opentype'),
+        url('assets/fonts/ArefRuqaa-Regular.ttf') format('woff2'),
+        url('assets/fonts/ArefRuqaa-Regular.ttf') format('woff'),
+        url('assets/fonts/ArefRuqaa-Regular.ttf') format('truetype'),
+        url('assets/fonts/ArefRuqaa-Regular.ttf') format('svg');
+}
+
 html {
     overflow-x: hidden;
 }
@@ -43,7 +52,8 @@ body {
     margin: 0;
     padding: 0.5rem 1rem;
     background-color: #4D4ABF;
-    background: linear-gradient(315deg, #957887 0%, #4D4ABF 35%, #4D4ABF 65%, #15243D 100%);
+    /* background: linear-gradient(315deg, #957887 0%, #4D4ABF 35%, #4D4ABF 65%, #15243D 100%); */
+    background: linear-gradient(315deg, #957887 0%, #4D4ABF 50%, #15243D 100%);
     text-align: center;
     overflow-x: hidden;
     max-width: 1440px;
@@ -115,6 +125,15 @@ footer p {
 
 .slogan {
     max-width: 40vw;
+}
+
+.sloganp {
+    font-family: 'Aref-Ruqaa';
+    font-size: 48px;
+    max-width: 40vw;
+    margin: 0;
+    font-stretch: expanded;
+    color: #FBB066;
 }
 
 
