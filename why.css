@@ -1,0 +1,61 @@
+.why {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.why-text {
+    margin-bottom: calc(60px + 2rem);
+}
+
+.doodle2 {
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    height: 90px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.feature {
+    max-width: 160px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 26px;
+    position: relative;
+}
+
+.feature:nth-child(odd) {
+    background-color: #ffd94e;
+}
+
+.feature:nth-child(even) {
+    background-color: #FDF1E2;
+}
+
+.feature img {
+    height: 120px;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.feature p {
+    color: #000;
+    line-height: 1.4;
+    margin-top: 80px;
+}
+
+
+@media (max-width: 768px) {
+    .feature {
+        margin-bottom: 60px;
+    }
+}

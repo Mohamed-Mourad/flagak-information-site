@@ -1,0 +1,91 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Carousel Container */
+.carousel-container {
+    position: relative;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-image: url(assets/images/categoriesbg.png);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    width: 100vw;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.carousel-container {
+    /* Existing styles... */
+    overflow-x: scroll; /* or auto, as you have it */
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For IE and Edge */
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+.bgbags {
+    position: absolute;
+    right: 0.4rem;
+    top: -2.2rem;
+    height: 140px;
+}
+
+/* Carousel Track */
+.carousel-track {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2rem;
+}
+
+/* Individual Category Card */
+.carousel-card {
+    max-width: 25vw;
+    flex: 0 0 auto;
+    /* Prevent cards from shrinking */
+    margin-right: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for desktop */
+.carousel-card:hover {
+    transform: scale(1.05);
+}
+
+/* Card Image */
+.carousel-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Card Label */
+.carousel-card p {
+    margin: 0.5rem 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Responsive tweaks (optional) */
+@media (max-width: 600px) {
+    .carousel-card {
+        max-width: 40vw;
+    }
+
+    .carousel-section h2 {
+        font-size: 1.25rem;
+    }
+}

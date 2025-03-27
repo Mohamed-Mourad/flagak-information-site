@@ -1,90 +1,234 @@
-#pharoah {
-    position: absolute;
-    width: 33vw;
-    left: 2rem;
-    top: 2rem;
+/* ======================
+   GENERAL VARIABLES
+   ====================== */
+:root {
+    --purple-bg: #5154A3;
+    --yellow: #FFCB06;
+    --white: #FFFFFF;
+    --max-width: 1200px;
+    /* Adjust as needed for your design */
 }
 
-#landing-mockup {
-    position: absolute;
-    width: 40vw;
-    right: 5rem;
-}
-
+/* ======================
+     LANDING SECTION
+     ====================== */
 .landing {
+    position: relative;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    min-height: 100vh;
+    /* Adjust as desired */
+    overflow: hidden;
+    /* So big images won't create scrollbars */
 }
 
-.downloaders {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    background-color: #F0B373;
-    border-radius: 12px;
-    padding: 0.5rem 1rem;
-    width: fit-content;
-    max-width: 25vw;
-    align-items: center;
-    margin-top: 2rem;
-    z-index: 2;
+/* Background container */
+.landing-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* The parent divs inside handle the images and HR separator */
 }
 
-.downloaders-p {
-    display: flex;
-    gap: 0.25rem;
-    font-size: 16px;
-    color: #000;
-    font-weight: bold;
-    align-items: center;
+/* Upper background part (contains alamak-landing) */
+.landing-background-upper {
+    position: relative;
+    width: 100%;
+    background-color: var(--purple-bg);
+    overflow: hidden;
+    /* Hide any large image overflow if needed */
+}
+
+/* The "alamak2.png" image that extends beyond viewport width */
+.alamak-landing {
+    display: block;
+    width: 110vw;
+    /* Slightly larger than viewport width */
+    max-width: none;
+    /* Ensure it doesn’t shrink unexpectedly */
+    margin: 0 auto;
+    /* Center horizontally in its container */
+}
+
+/* The yellow horizontal line (separator) */
+.landing-separator {
+    border: none;
+    width: 100%;
+    height: 1rem;
+    background-color: var(--yellow);
     margin: 0;
 }
 
-.downloaders-p span img {
-    height: 18px;
+/* Lower background part (contains slippers & ehna_bto) */
+.landing-background-lower {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* You can add padding or a min-height if needed */
+    padding-bottom: 3rem;
+    /* Space for the images at bottom */
 }
 
-.downloaders-links {
+/* Slippers image: bottom-left, rotated */
+.slippers {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* Slightly from the left edge */
+    width: 100px;
+    /* Adjust as needed */
+    max-width: none;
+}
+
+/* Ehna_bto image: bottom-right, 1rem from bottom */
+.ehna-bto {
+    position: absolute;
+    bottom: 3rem;
+    right: 1rem;
+    width: 120px;
+    /* Adjust as needed */
+    max-width: none;
+}
+
+/* ======================
+     FOREGROUND CONTENT
+     ====================== */
+.landing-foreground {
+    position: relative;
+    z-index: 1;
+    /* On top of background */
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    /* Some breathing room */
+    text-align: center;
+    /* Center main text and images */
+}
+
+/* Icon at the top right */
+.icon-in-nav {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 100px;
+    /* Adjust size as desired */
+    max-width: none;
+}
+
+/* Slogan styling */
+.slogan {
+    font-size: 4rem;
+    /* Adjust as needed */
+    font-weight: bold;
+    margin-top: 2rem;
+    /* Push down from the icon */
+    color: var(--white);
+    line-height: 1.2;
+}
+
+/* Highlighted part of slogan (LOCAL MEETS) in yellow */
+.slogan .highlight {
+    color: var(--yellow);
+}
+
+/* Smaller text under slogan */
+.slogan-small {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: var(--white);
+}
+
+/* Highlighted Arabic part in yellow */
+.slogan-small .highlight-arabic {
+    color: var(--yellow);
+}
+
+/* ======================
+     MOCKUPS
+     ====================== */
+.mockups {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
-    justify-content: center;
+    margin: 2rem 0;
 }
 
-.downloaders-links a {
-    flex: 1;
+.mobile-side {
+    width: 20%;
+    /* Slightly smaller */
+    min-width: 120px;
+    /* Prevent it from getting too small */
+}
+
+.mobile-center {
+    width: 25%;
+    /* Slightly larger */
+    min-width: 140px;
+}
+
+/* ======================
+     STORE ICONS
+     ====================== */
+.stores {
     display: flex;
+    align-items: center;
     justify-content: center;
-}
-
-.downloaders-links a img {
-    width: 100%;
-    height: auto;
-}
-
-.landing .slogan {
+    gap: 1rem;
     margin-top: 2rem;
 }
 
+.store {
+    width: 150px;
+    /* Adjust as needed */
+    max-width: 100%;
+}
 
+/* ======================
+     RESPONSIVE ADJUSTMENTS
+     ====================== */
+@media (max-width: 992px) {
+    .icon-in-nav {
+        width: 80px;
+    }
+}
 
 @media (max-width: 768px) {
-    #pharoah {
-        width: 66vw;
-        left: 2rem;
-        top: 2rem;
+    .slogan {
+        font-size: 2.5rem;
     }
 
-    #landing-mockup {
-        position: relative;
-        width: 100%;
-        max-width: 90%;
-        right: 0;
+    .slogan-small {
+        font-size: 1.2rem;
     }
 
-    .downloaders {
-        max-width: 70vw;
+    /* Adjust store icons if needed */
+    .store {
+        width: 120px;
+    }
+
+    .slippers {
+        width: 17%;
+    }
+
+    .ehna-bto {
+        width: 17%;
+    }
+
+    .landing-background-upper {
+        height: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .icon-in-nav {
+        width: 60px;
+    }
+
+    .store {
+        width: 100px;
     }
 }

@@ -1,46 +1,28 @@
 @font-face {
-    font-family: 'Gilroy-Bold';
-    src: url('assets/fonts/Gilroy-Bold.ttf') format('embedded-opentype'),
-        url('assets/fonts/Gilroy-Bold.ttf') format('woff2'),
-        url('assets/fonts/Gilroy-Bold.ttf') format('woff'),
-        url('assets/fonts/Gilroy-Bold.ttf') format('truetype'),
-        url('assets/fonts/Gilroy-Bold.ttf') format('svg');
+    font-family: 'poppins-medium';
+    src: url('assets/fonts/Poppins-Medium.ttf') format('embedded-opentype'),
+        url('assets/fonts/Poppins-Medium.ttf') format('woff2'),
+        url('assets/fonts/Poppins-Medium.ttf') format('woff'),
+        url('assets/fonts/Poppins-Medium.ttf') format('truetype'),
+        url('assets/fonts/Poppins-Medium.ttf') format('svg');
 }
 
 @font-face {
-    font-family: 'Gilroy-Semibold';
-    src: url('assets/fonts/Gilroy-SemiBold.ttf') format('embedded-opentype'),
-        url('assets/fonts/Gilroy-SemiBold.ttf') format('woff2'),
-        url('assets/fonts/Gilroy-SemiBold.ttf') format('woff'),
-        url('assets/fonts/Gilroy-SemiBold.ttf') format('truetype'),
-        url('assets/fonts/Gilroy-SemiBold.ttf') format('svg');
+    font-family: 'poppins-bold';
+    src: url('assets/fonts/Poppins-Bold.ttf') format('embedded-opentype'),
+        url('assets/fonts/Poppins-Bold.ttf') format('woff2'),
+        url('assets/fonts/Poppins-Bold.ttf') format('woff'),
+        url('assets/fonts/Poppins-Bold.ttf') format('truetype'),
+        url('assets/fonts/Poppins-Bold.ttf') format('svg');
 }
 
 @font-face {
-    font-family: 'Gilroy-Medium';
-    src: url('assets/fonts/Gilroy-Medium.ttf') format('embedded-opentype'),
-        url('assets/fonts/Gilroy-Medium.ttf') format('woff2'),
-        url('assets/fonts/Gilroy-Medium.ttf') format('woff'),
-        url('assets/fonts/Gilroy-Medium.ttf') format('truetype'),
-        url('assets/fonts/Gilroy-Medium.ttf') format('svg');
-}
-
-@font-face {
-    font-family: 'Chronicle';
-    src: url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('embedded-opentype'),
-        url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('woff2'),
-        url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('woff'),
-        url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('truetype'),
-        url('assets/fonts/Chronicle\ Display\ Semibold.otf') format('svg');
-}
-
-@font-face {
-    font-family: 'Aref-Ruqaa';
-    src: url('assets/fonts/ArefRuqaa-Regular.ttf') format('embedded-opentype'),
-        url('assets/fonts/ArefRuqaa-Regular.ttf') format('woff2'),
-        url('assets/fonts/ArefRuqaa-Regular.ttf') format('woff'),
-        url('assets/fonts/ArefRuqaa-Regular.ttf') format('truetype'),
-        url('assets/fonts/ArefRuqaa-Regular.ttf') format('svg');
+    font-family: 'cairo-bold';
+    src: url('assets/fonts/Cairo-Bold.ttf') format('embedded-opentype'),
+        url('assets/fonts/Cairo-Bold.ttf') format('woff2'),
+        url('assets/fonts/Cairo-Bold.ttf') format('woff'),
+        url('assets/fonts/Cairo-Bold.ttf') format('truetype'),
+        url('assets/fonts/Cairo-Bold.ttf') format('svg');
 }
 
 html {
@@ -48,119 +30,49 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0.5rem 1rem;
-    background-color: #4D4ABF;
-    /* background: linear-gradient(315deg, #957887 0%, #4D4ABF 35%, #4D4ABF 65%, #15243D 100%); */
-    background: linear-gradient(315deg, #ad92a0 0%, #6a66dc 50%, #3b3891 100%);
     text-align: center;
     overflow-x: hidden;
     max-width: 1440px;
 }
 
 section {
-    padding: 2rem;
-    z-index: 1;
+    position: relative;
 }
 
-.body {
-    padding: 6rem;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.body .mockup {
-    max-height: 460px;
-    z-index: 2;
-}
-
-.body-text-content {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.body-text-content p,
-footer p {
-    font-family: 'Gilroy-Medium';
-    font-size: 16px;
+h3 {
+    font-family: 'poppins-medium';
     color: #fff;
-    text-align: left;
     margin: 0;
+    padding: 0;
 }
 
-.absolute-img {
-    position: absolute;
-    z-index: -1;
+p {
+    font-family: 'poppins-medium';
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
 
-.section-heading {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-}
-
-.section-heading img {
-    height: 1px;
-}
-
-.section-heading p {
-    font-family: 'Gilroy-Bold';
-    font-size: 16px;
-    color: #F0B373;
-}
-
-.section-title {
-    font-family: 'Chronicle';
-    font-size: 64px;
-    color: #fff;
-    text-align: left;
+h1 {
+    font-family: 'poppins-bold';
+    color: #5456A2;
     margin: 0;
+    padding: 0;
+    font-size: 3rem;
 }
 
-.slogan {
-    max-width: 40vw;
-}
-
-.sloganp {
-    font-family: 'Aref-Ruqaa';
-    font-size: 48px;
-    max-width: 40vw;
+h2 {
+    font-family: 'poppins-bold';
+    color: #5456A2;
     margin: 0;
-    font-stretch: expanded;
-    color: #FBB066;
+    padding: 0;
+    font-size: 2rem;
 }
 
+.english {
+    font-family: 'poppins-bold';
+}
 
-@media (max-width: 768px) {
-    section {
-        padding: 1rem;
-    }
-
-    .section-title {
-        font-size: 36px;
-    }
-
-    .section-heading {
-        gap: 0.5rem;
-    }
-
-    .body {
-        padding: 2rem;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .slogan {
-        max-width: 75%;
-    }
-
-    h1 br {
-        display: none;
-    }
+.arabic {
+    font-family: 'cairo-bold';
 }

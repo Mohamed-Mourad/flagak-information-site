@@ -1,41 +1,113 @@
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
-    gap: 0.5rem;
-}
-
-.socials {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-}
-
-.socials a img {
-    filter: invert(1) brightness(1000%);
-}
-
-.socials a img {
-    height: 24px;
-}
-
-footer p {
-    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: #5154A3;
+    color: white;
     text-align: center;
 }
 
-.footer-p a {
-    color: #fff;
+.footer-img {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    flex-wrap: wrap;
+}
+
+.footer-info-group {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1rem;
+}
+
+.footer-info-group h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.footer-info-group-items {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+.footer-info-group-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    font-size: 0.95rem;
+}
+
+.footer-info-group-contact-item a,
+.footer-info-group-contact-item p {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+.footer-info-group-contact-item p {
+    line-height: 1.4;
+}
+
+.footer-info-group-contact-item img {
+    width: 30px;
+}
+
+.social-icons {
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.social-icons img {
+    width: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-spacer {
+    background-color: white;
+    height: 1px;
+    width: 90%;
+    margin: 1rem 0 1rem 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin: 0.5rem;
+}
+
+footer a {
+    color: white;
     text-decoration: underline;
 }
 
 
 @media (max-width: 768px) {
-    footer p {
-        font-size: 9px;
+    .footer-info-group h3 {
+        text-align: center;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .footer-info-group-items {
+        justify-content: center;
     }
 }
