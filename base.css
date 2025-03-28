@@ -38,6 +38,7 @@ body {
 
 section {
     position: relative;
+    padding: 0 1rem;
 }
 
 .inline-span {
