@@ -82,3 +82,10 @@ h2 {
     font-family: 'cairo-bold';
     letter-spacing: -0.25px;
 }
+
+
+@media (max-width: 768px) {
+    .arabic {
+        letter-spacing: -1px;
+    }
+}
