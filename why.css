@@ -23,7 +23,7 @@
 }
 
 .feature {
-    max-width: 160px;
+    width: 25%;
     padding: 1rem;
     text-align: center;
     border-radius: 26px;
@@ -57,5 +57,6 @@
 @media (max-width: 768px) {
     .feature {
         margin-bottom: 60px;
+        width: 80%;
     }
 }

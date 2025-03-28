@@ -40,6 +40,10 @@ section {
     position: relative;
 }
 
+.inline-span {
+    display: inline-block;
+}
+
 h3 {
     font-family: 'poppins-medium';
     color: #fff;
