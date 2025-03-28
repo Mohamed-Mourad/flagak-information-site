@@ -43,6 +43,8 @@
 /* The "alamak2.png" image that extends beyond viewport width */
 .alamak-landing {
     display: block;
+    position: absolute;
+    top: -4rem;
     width: 110vw;
     /* Slightly larger than viewport width */
     max-width: none;
@@ -189,13 +191,11 @@
 /* ======================
      RESPONSIVE ADJUSTMENTS
      ====================== */
-@media (max-width: 992px) {
-    .icon-in-nav {
-        width: 80px;
-    }
-}
-
 @media (max-width: 768px) {
+    .alamak-landing {
+        top: 0;
+    }
+    
     .slogan {
         font-size: 2.5rem;
     }
